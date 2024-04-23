@@ -20,6 +20,8 @@ Embedded software: Runs on the microcontroller to collect data from sensors and 
 Arduino IoT Cloud: Receives data from the ESP32, stores it in a database, and shows it to the user through a dashboard.
 User interface: A web-based dashboard where the user can view the real-time status of their instalation (water level and temperature and if the pump and heater are on or not), set alerts, and configure the system.
 
+**Architecture:** [https://github.com/GuiMaFol/Water-Tank-Monitoring-System-Using-ESP32/blob/main/Architecture.png](url)
+
 Installation Manual:
 Follow these steps to install the water tank monitoring system:
 
