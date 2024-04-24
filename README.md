@@ -46,31 +46,33 @@ Subsequently, there is a need to include the libraries related to the sensor use
 <OneWire.h>;<br/>
 <DallasTemperature.h>;<br/>
 
+**Circuit:** [Circuit](https://github.com/GuiMaFol/Water-Tank-Monitoring-System-Using-ESP32/blob/main/Circuit.png)
+
 **Pin Configuration:**
 Sensors: For the temperature sensor (ds18B20), connect its pins as follows:<br/>
 Power (Vcc) connects to 3V3 (3.3V);<br/>
 Ground connects to GND;<br/>
 Data connects to pin D4;<br/>
 For temperature data capture, it is necessary to have a 4.7k Ohms resistor between the sensor's "Vcc" and the "Data" pin. Now, for the proximity ultrasonic sensor (HC-sr04), the pin configuration is as follows:<br/>
--Power (Vcc) connects to VIN (5V);<br/>
--Ground (Gnd) connects to GND;<br/>
--Trigger (Trig) is connected to pin D5;<br/>
--Echo (Echo) is connected to pin D18;<br/>
+- Power (Vcc) connects to VIN (5V);<br/>
+- Ground (Gnd) connects to GND;<br/>
+- Trigger (Trig) is connected to pin D5;<br/>
+- Echo (Echo) is connected to pin D18;<br/>
 Actuator pin configuration (at this stage of development, LEDs are being used to represent both Heating and Pump) in relation to ESP32:<br/>
--For heating, pin D22 is used;<br/>
--For the pump, pin D2 is used;<br/>
+- For heating, pin D22 is used;<br/>
+- For the pump, pin D2 is used;<br/>
 
 **WiFi Connection (script):**
 For the device's WiFi connection, after library installation, it is necessary to input the SSID and WiFi password as follows;<br/>
--Line 8 - SSID definition, where the WiFi ID to be connected must be placed;<br/>
--Line 9 - Introduction of the WiFi network password, placed between quotes ("").
+- Line 8 - SSID definition, where the WiFi ID to be connected must be placed;<br/>
+- Line 9 - Introduction of the WiFi network password, placed between quotes ("").
 
 **MQTT Connection (script):**
 To ensure the connection, some parameters need to be configured, these are;<br/>
--The MQTT ID, configured in line 13 of the script, where the ID used for the connection should be placed between quotes ("");<br/>
--The MQTT Broker, configured in line 14 of the script, where the used broker (in this case, "broker.hivemq.com") should be placed between quotes ("");<br/>
--The PORT, in line 15: in the MQTT_PORT section, it will be 1883 (as in the program);<br/>
--In lines 16 and 17, the topics to subscribe, publish, and subscribe are presented. You must place the topics used for the MQTT connection between quotes ("").<br/>
+- The MQTT ID, configured in line 13 of the script, where the ID used for the connection should be placed between quotes ("");<br/>
+- The MQTT Broker, configured in line 14 of the script, where the used broker (in this case, "broker.hivemq.com") should be placed between quotes ("");<br/>
+- The PORT, in line 15: in the MQTT_PORT section, it will be 1883 (as in the program);<br/>
+- In lines 16 and 17, the topics to subscribe, publish, and subscribe are presented. You must place the topics used for the MQTT connection between quotes ("").<br/>
 From this point, the connection to the broker and subscription to the topic will be effective.
 
 **Software Setup:**
