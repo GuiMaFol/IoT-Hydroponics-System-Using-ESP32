@@ -60,11 +60,13 @@ Sensors: For the temperature sensor (ds18B20), connect its pins as follows:<br/>
 * Power (Vcc) connects to 3V3 (3.3V);<br/>
 * Ground connects to GND;<br/>
 * Data connects to pin D4;<br/>
+
 For temperature data capture, it is necessary to have a 4.7k Ohms resistor between the sensor's "Vcc" and the "Data" pin. Now, for the proximity ultrasonic sensor (HC-sr04), the pin configuration is as follows:<br/>
 * Power (Vcc) connects to VIN (5V);<br/>
 * Ground (Gnd) connects to GND;<br/>
 * Trigger (Trig) is connected to pin D5;<br/>
 * Echo (Echo) is connected to pin D18;<br/>
+
 Actuator pin configuration (at this stage of development, LEDs are being used to represent both Heating and Pump) in relation to ESP32:<br/>
 * For heating, pin D22 is used;<br/>
 * For the pump, pin D2 is used;<br/>
