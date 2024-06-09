@@ -95,7 +95,7 @@ From this point, the connection to the broker and subscription to the topic will
 * Configure the Influxdb out nodes with your information, especially the API Token.
 * Now the sensor information should be displayed in InfluxDB, and can be sent to Grafana for the creation of a dashboard.
 * To do That, create a InfluxDB database in Grafana, fill the correct information and import the data by copying the bucket script.
-* if necessary, this video can help with the intergration of the three softwares: https://www.youtube.com/watch?v=riBycGMDJMo
+* if necessary, this video can help with the intergration of the three softwares: https://www.youtube.com/watch?v=riBycGMDJMo (Credits to the Creator)
 
 **Verification:**
 
