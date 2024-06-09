@@ -18,7 +18,7 @@ Hydroponic farming, powered by IoT technology, is a revolutionizing method of ag
 
 **Software:**
 * Embedded software: Runs on the microcontroller to collect data from sensors and transmit it to the server.
-* MQTT: Mechanism used to send data from/to the device.
+* HiveMQ: MQTT mechanism used to send data from/to the device.
 * Node-Red: Configures the flow of data to de the Database.
 * InfluxDB: Database used in the project.
 * Grafana: Integrated with InfluxDB To analyze data and show a dashboard.
