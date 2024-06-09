@@ -52,7 +52,7 @@ Subsequently, there is a need to include the libraries related to the sensor use
 <OneWire.h>;<br/>
 <DallasTemperature.h>;<br/>
 
-**Circuit:**[Circuit](https://github.com/GuiMaFol/Water-Tank-Monitoring-System-Using-ESP32/blob/main/Circuit.png)
+**[Circuit](https://github.com/GuiMaFol/Water-Tank-Monitoring-System-Using-ESP32/blob/main/Circuit.png)**
 
 **Pin Configuration:**
 
