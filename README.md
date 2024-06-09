@@ -5,7 +5,6 @@
 Hydroponic farming, powered by IoT technology, is a revolutionizing method of agriculture, optimizing resource use and increasing yields. Traditional methods face constraints like limited land and water scarcity, which hydroponics overcomes by growing plants in a soil-less, nutrient-rich water solution. IoT integration enables precise monitoring and management of environmental factors like temperature, luminosity and water level, leading to higher yields and reduced resource consumption. With scalability and adaptability, hydroponics with IoT offer sustainable solutions for local food production.
 
 **Objectives:**
-
 * Accurate Monitoring: Develop a system capable of accurately measuring water level and temperatures in a tank.
 * Real-time Data: Provide the user with real-time data updates through a user-friendly dashboard.
 * Data storage: Store data in a visual database, that allows for analysis of the system health and results.
@@ -18,9 +17,11 @@ Hydroponic farming, powered by IoT technology, is a revolutionizing method of ag
 * Microcontroller (We are using an ESP32 DEV MODULE) : Controls the sensors, processes data, and communicates with the server.
 
 **Software:**
-Embedded software: Runs on the microcontroller to collect data from sensors and transmit it to the server.
-Arduino IoT Cloud: Receives data from the ESP32, stores it in a database, and shows it to the user through a dashboard.
-User interface: A web-based dashboard where the user can view the real-time status of their instalation (water level and temperature and if the pump and heater are on or not), set alerts, and configure the system.
+* Embedded software: Runs on the microcontroller to collect data from sensors and transmit it to the server.
+* MQTT: Mechanism used to send data from/to the device.
+* Node-Red: Configures the flow of data to de the Database.
+* InfluxDB: Database used in the project.
+* Grafana: Integrated with InfluxDB To analyze data and show a dashboard.
 
 **Architecture:** [Architecture Diagram](https://github.com/GuiMaFol/Water-Tank-Monitoring-System-Using-ESP32/blob/main/Architecture.png)
 
