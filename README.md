@@ -5,11 +5,12 @@
 Hydroponic farming, powered by IoT technology, is a revolutionizing method of agriculture, optimizing resource use and increasing yields. Traditional methods face constraints like limited land and water scarcity, which hydroponics overcomes by growing plants in a soil-less, nutrient-rich water solution. IoT integration enables precise monitoring and management of environmental factors like temperature, luminosity and water level, leading to higher yields and reduced resource consumption. With scalability and adaptability, hydroponics with IoT offer sustainable solutions for local food production.
 
 **Objectives:**
-* Accurate Monitoring: Develop a system capable of accurately measuring water level and temperatures in a tank.
-Real-time Data: Provide the user with real-time data updates through a user-friendly dashboard.
 
-Scalability: Design the system to be scalable, allowing for integration with various tank sizes and types.
-Accessibility: Ensure that the system is accessible and easy to install, even for users with minimal technical knowledge.
+* Accurate Monitoring: Develop a system capable of accurately measuring water level and temperatures in a tank.
+* Real-time Data: Provide the user with real-time data updates through a user-friendly dashboard.
+* Data storage: Store data in a visual database, that allows for analysis of the system health and results.
+* Scalability: Design the system to be scalable, allowing for integration with various tank sizes and types.
+* Accessibility: Ensure that the system is easy to develop, requiring minimal technical knowledge for repoduction.
 
 **Hardware:**
 Ultrasonic sensor: Used for measuring water level in the tank.
