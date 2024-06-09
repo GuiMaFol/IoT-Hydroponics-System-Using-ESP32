@@ -23,7 +23,7 @@ Hydroponic farming, powered by IoT technology, is a revolutionizing method of ag
 * InfluxDB: Database used in the project.
 * Grafana: Integrated with InfluxDB To analyze data and show a dashboard.
 
-**Architecture:** [Architecture Diagram](https://github.com/GuiMaFol/Water-Tank-Monitoring-System-Using-ESP32/blob/main/Architecture.png)
+ **[Architecture Diagram](https://github.com/GuiMaFol/Water-Tank-Monitoring-System-Using-ESP32/blob/main/Architecture.png)**
 
 # Installation Manual
 Follow these steps to install the water tank monitoring system:
