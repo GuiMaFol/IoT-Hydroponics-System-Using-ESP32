@@ -29,12 +29,14 @@ Hydroponic farming, powered by IoT technology, is a revolutionizing method of ag
 Follow these steps to install the water tank monitoring system:
 
 **Hardware Installation:**
+
 * Mount the ultrasonic sensor inside the water tank at an appropriate height to measure water levels accurately.
 * Install the temperature sensor in the water tank to measure the temperature of the water.
 * Connect the sensors to the microcontroller according to the provided wiring diagram.
 * Power up the system using a suitable power source.
 
 **Arduino IDE - ESP32:**
+
 Select Files > Preferences, then it's necessary to enter the following URL in the field:
 https://raw.githubsercontent.com/espressif/arduino-esp32/gh-pages/package-esp32_index.json <br/>
 After that, click "OK", then select Tools > Board > Board Manager
@@ -42,6 +44,7 @@ Search for ESP32 and install it.
 This ensures that the Arduino IDE installed on the device can upload the program to the ESP32 board.
 
 **Library installation:**
+
 For the ESP32 Wifi connection and MQTT communication of the board with other devices, the installation of two main libraries in the Arduino IDE is required:<br/>
 <Wifi.h>, which ensures the Wifi connection;<br/>
 <PubSubClient.h>, which ensures the connection to the MQTT broker, subscribing to a topic, and publishing data related to sensors and actuators.<br/>
@@ -49,9 +52,7 @@ Subsequently, there is a need to include the libraries related to the sensor use
 <OneWire.h>;<br/>
 <DallasTemperature.h>;<br/>
 
-**Circuit:** 
-
-[Circuit](https://github.com/GuiMaFol/Water-Tank-Monitoring-System-Using-ESP32/blob/main/Circuit.png)
+**Circuit:**[Circuit](https://github.com/GuiMaFol/Water-Tank-Monitoring-System-Using-ESP32/blob/main/Circuit.png)
 
 **Pin Configuration:**
 
