@@ -1,7 +1,7 @@
 # IoT-Hydroponics-System-Using-ESP32
 
 **Motivation:**
-Hydroponic farming, powered by IoT technology, is a revolutionizing method of agriculture, optimizing resource use and increasing yields. Traditional methods face constraints like limited land and water scarcity, which hydroponics overcomes by growing plants in a soil-less, nutrient-rich water solution. IoT integration enables precise monitoring and management of environmental factors like temperature, luminosity and water level, leading to higher yields and reduced resource consumption. With scalability and adaptability, hydroponics with IoT offer sustainable solutions for local food production.
+ Hydroponic farming, powered by IoT technology, is a revolutionizing method of agriculture, optimizing resource use and increasing yields. Traditional methods face constraints like limited land and water scarcity, which hydroponics overcomes by growing plants in a soil-less, nutrient-rich water solution. IoT integration enables precise monitoring and management of environmental factors like temperature, luminosity and water level, leading to higher yields and reduced resource consumption. With scalability and adaptability, hydroponics with IoT offer sustainable solutions for local food production.
 
 **Objectives:**
 * Accurate Monitoring: Develop a system capable of accurately measuring water level and temperatures in a tank.
