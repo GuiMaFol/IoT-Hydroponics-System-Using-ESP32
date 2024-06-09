@@ -98,13 +98,16 @@ From this point, the connection to the broker and subscription to the topic will
 * if necessary, this video can help with the intergration of the three softwares: https://www.youtube.com/watch?v=riBycGMDJMo
 
 **Verification:**
+
 Verify that the sensors are accurately measuring water level and temperature.
 Verify that the system is updating when the pump is turned on or off.
 
 **Maintenance:**
+
 Periodically check the system for any issues or malfunctions.
 Replace sensors or components as needed.
 Keep the software up to date with the latest updates and security patches.
 
 **Justification for using the MQTT protocol:**
+
 The choice to use the MQTT protocol for communication between devices is due to the widespread use of this type of protocol for IoT services, becoming a standard for these types of applications, as it ensures service quality through QoS (Quality of Service) settings, guaranteeing security, and creating a priority scale among services. It is also worth noting that communication occurs through messages that are transmitted lightly and efficiently, making it relatively fast compared to other available protocols, considering the tank monitoring application, which uses message publishing and reading for system control and monitoring.
