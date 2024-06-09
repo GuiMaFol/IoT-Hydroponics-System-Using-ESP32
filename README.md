@@ -13,9 +13,9 @@ Hydroponic farming, powered by IoT technology, is a revolutionizing method of ag
 * Accessibility: Ensure that the system is easy to develop, requiring minimal technical knowledge for repoduction.
 
 **Hardware:**
-Ultrasonic sensor: Used for measuring water level in the tank.
-Temperature sensor: Employed to measure the temperature of the water.
-Microcontroller (We are using an ESP32 DEV MODULE) : Controls the sensors, processes data, and communicates with the server.
+* Ultrasonic sensor: Used for measuring water level in the tank.
+* Temperature sensor: Employed to measure the temperature of the water.
+* Microcontroller (We are using an ESP32 DEV MODULE) : Controls the sensors, processes data, and communicates with the server.
 
 **Software:**
 Embedded software: Runs on the microcontroller to collect data from sensors and transmit it to the server.
