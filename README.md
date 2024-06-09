@@ -91,7 +91,7 @@ From this point, the connection to the broker and subscription to the topic will
 * Upload the embedded software to the microcontroller using the Arduino IDE or similar software.
 * Configure the microcontroller to connect to the appropriate Wi-Fi network.
 * Set-up Node-Red, InfluxDB and Grafana.
-* Import the provided .json file to Node-Red.
+* Install InfluxDB nodes and import the provided .json file to Node-Red.
 * Configure the Influxdb out nodes with your information, especially the API Token.
 * Now the sensor information should be displayed in InfluxDB, and can be sent to Grafana for the creation of a dashboard.
 * To do That, create a InfluxDB database in Grafana, fill the correct information and import the data by copying the bucket script.
