@@ -25,7 +25,7 @@ Hydroponic farming, powered by IoT technology, is a revolutionizing method of ag
 
 **Architecture:** [Architecture Diagram](https://github.com/GuiMaFol/Water-Tank-Monitoring-System-Using-ESP32/blob/main/Architecture.png)
 
-**Installation Manual:**
+# Installation Manual:
 Follow these steps to install the water tank monitoring system:
 
 **Hardware Installation:**
