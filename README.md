@@ -24,9 +24,11 @@ Hydroponic farming, powered by IoT technology, is a revolutionizing method of ag
 * InfluxDB: Database used in the project.
 * Grafana: Integrated with InfluxDB To analyze data and show a dashboard.
 
-**Justification for Software choice:**
+**Justification for platfom choice:**
 
-
+Node-red was chosen for its simple configuration of data flow and easy setup to integrate with other platforms, i is also free to use wicth was a concern for all platforms.
+InfluxDB was the database chosen because of it's simple integration with node-red to receive data automatically by just putting an "InluxDBout" node on the flow and inputing the database information, it also allows to export data to Excel and is free to use.
+For the Dashboard, Grafana was the choice, just like the others it is free to use and allows for great customization. The Grafana - InfluxDB integration is very simple requiring only a few informations such as API token and Querry Script to receive and display data.
 
 **Architecture:**
 
