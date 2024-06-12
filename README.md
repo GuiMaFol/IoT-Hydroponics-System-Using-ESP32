@@ -15,6 +15,7 @@ Hydroponic farming, powered by IoT technology, is a revolutionizing method of ag
 * Ultrasonic sensor: Used for measuring water level in the tank.
 * Temperature sensor: Employed to measure the temperature of the water.
 * Microcontroller (We are using an ESP32 DEV MODULE) : Controls the sensors, processes data, and communicates with the server.
+* Hydroponics structure: Mounted with PVC tubes in order to mimnimize production costs. Consists of three channels that irrigate the the plants base, in an elevated structure. The water is pumped to the system by a submersible pump in a reservoir, after the passage of water through the channels it returns to the reservoir through gravity and the cycle repeats.
 
 **Software:**
 * Embedded software: Runs on the microcontroller to collect data from sensors and transmit it to the server.
@@ -22,6 +23,10 @@ Hydroponic farming, powered by IoT technology, is a revolutionizing method of ag
 * Node-Red: Configures the flow of data to de the Database.
 * InfluxDB: Database used in the project.
 * Grafana: Integrated with InfluxDB To analyze data and show a dashboard.
+
+**Justification for Software choice:**
+
+
 
 **Architecture:**
 
