@@ -32,7 +32,7 @@ For the Dashboard, Grafana was the choice, just like the others it is free to us
 
 **Architecture:**
 
-![image](https://github.com/GuiMaFol/IoT-Hydroponics-System-Using-ESP32/assets/167825198/f812b888-4879-4929-88e4-70466f13d635)
+![image](https://github.com/GuiMaFol/IoT-Hydroponics-System-Using-ESP32/assets/167825198/03d08e85-7233-4615-964c-93dffbdb2b57)
 
 # Installation Manual
 Follow these steps to install the water tank monitoring system:
