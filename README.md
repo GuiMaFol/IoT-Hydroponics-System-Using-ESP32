@@ -106,10 +106,12 @@ From this point, the connection to the broker and subscription to the topic will
 * To do That, create a InfluxDB database in Grafana, fill the correct information and import the data by copying the bucket script.
 * if necessary, this video can help with the intergration of the three softwares: https://www.youtube.com/watch?v=riBycGMDJMo (Credits to the Creator)
 
-**InfluxDB COnfigurations**
+**InfluxDB:**
+
 ![image](https://github.com/GuiMaFol/IoT-Hydroponics-System-Using-ESP32/assets/167825198/1389bf47-03b2-42c6-9db0-c6c693a13d73)
 
-**Grafana Dashboard**
+**Grafana Dashboard:**
+
 ![image](https://github.com/GuiMaFol/IoT-Hydroponics-System-Using-ESP32/assets/167825198/7d3efeca-a4e3-4f30-983f-a70933a1fb3c)
 
 
